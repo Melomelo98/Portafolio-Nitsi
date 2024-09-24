@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Color de fondo suave, rosa claro */
+    color: #4a4a4a; /* Color del texto oscuro */
+}
+
+h1, h2 {
+    color: #d81b60; /* Color rosa bebé para títulos */
+}
+
+header {
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+section {
+    background-color: #fff; /* Fondo blanco para secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 20px;
+    margin-bottom: 20px; /* Espacio entre secciones */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+footer {
+    background-color: #d81b60; 
+    color: #fff; 
+    padding: 20px;
+}
+
+/* Estilos para el formulario */
+.form-group label {
+    font-weight: bold; /* Texto en negrita */
+}
+
+.btn-primary {
+    background-color: #f48fb1; /* Color del botón rosa bebé */
+    border-color: #f48fb1; /* Borde del botón rosa bebé */
+}
+
+.btn-primary:hover {
+    background-color: #f06292; /* Color del botón al pasar el mouse */
+    border-color: #f06292; /* Borde del botón al pasar el mouse */
+}
+
+/* Ajustes para tarjetas de proyectos */
+.card {
+    margin-bottom: 20px; /* Espacio entre tarjetas */
+    border: none; /* Sin borde */
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0 0; /* Bordes redondeados en la parte superior */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Tamaño de fuente en móviles */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Tamaño de fuente en móviles */
+    }
+
+    .container {
+        padding-left: 10px; /* Espacio en los lados en móviles */
+        padding-right: 10px; /* Espacio en los lados en móviles */
+    }
+}
